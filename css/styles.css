@@ -1,0 +1,18 @@
+.heading-1,
+.heading-2 {
+    text-align: center;
+    color: #3f3f3f;
+}
+
+.heading-2 {
+    font-style: italic
+}
+
+.font {
+    font-family: "Courier New", monospace;
+}
+
+.img {
+    width: 400px;
+    height: auto;
+}
