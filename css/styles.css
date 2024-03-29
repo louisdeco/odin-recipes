@@ -1,9 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* * {
+    outline: 2px solid red;
+} */
+
 .heading-1,
 .heading-2 {
     text-align: center;
     color: #3f3f3f;
+
 }
 
+.heading-1{
+    padding-top: 40vh;
+    flex: 40%;
+    text-align: center;
+    margin: 0;
+}
 .heading-2 {
     font-style: italic
 }
@@ -13,6 +34,15 @@
 }
 
 .img {
-    width: 400px;
+    width: 60%;
     height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.presentation {
+    display: flex;
+    height: 100vh;
+    padding:0;
 }
